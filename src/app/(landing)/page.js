@@ -1,12 +1,16 @@
+import AboutUs from "@/components/AboutUs";
 import { Achivements } from "@/components/Achivements";
 import { AVEON } from "@/components/AVEON";
+import { ContactUs } from "@/components/ContactUS";
 import { DotBg } from "@/components/DotBg";
+import EATV from "@/components/EATV";
 import FeaturedSection from "@/components/Featured";
 import Footer from "@/components/Footer";
 import { Gallery } from "@/components/Gallery";
 import { Hero } from "@/components/Hero";
 import Navbar from "@/components/NavBar";
 import OurInstitution from "@/components/OurInstitution";
+import Promote from "@/components/Promote";
 import React from "react";
 
 export default function page() {
@@ -23,6 +27,9 @@ export default function page() {
         <Gallery />
       </div>
       <OurInstitution />
+      <AboutUs />
+      <EATV />
+      <Promote />
       {/* Other Fetures */}
       <DotBg />
       <p className=" text-center">

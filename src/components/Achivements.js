@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 
-const captionStyle = "text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-semibold mb-2"; // New style for captions
+const captionStyle = "text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-semibold mt-2"; // New style for captions
 
 export function Achivements() {
   const data = [

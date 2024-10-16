@@ -1,10 +1,12 @@
 import { Achivements } from "@/components/Achivements";
 import { AVEON } from "@/components/AVEON";
 import { DotBg } from "@/components/DotBg";
+import FeaturedSection from "@/components/Featured";
 import Footer from "@/components/Footer";
 import { Gallery } from "@/components/Gallery";
 import { Hero } from "@/components/Hero";
 import Navbar from "@/components/NavBar";
+import OurInstitution from "@/components/OurInstitution";
 import React from "react";
 
 export default function page() {
@@ -20,8 +22,13 @@ export default function page() {
         </h1>
         <Gallery />
       </div>
+      <OurInstitution />
+      {/* Other Fetures */}
       <DotBg />
-      <Footer/>
+      <p className=" text-center">
+        Note:- This website is under construction and not yet ready.
+      </p>
+      <Footer />
     </div>
   );
 }

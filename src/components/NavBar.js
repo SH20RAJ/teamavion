@@ -15,16 +15,16 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="hidden md:flex space-x-8">
-            <Link href="/about">
+            <Link href="/#about">
               <span className="">About</span>
             </Link>
-            <Link href="/achievements">
+            <Link href="/#achievements">
               <span className="">Achievements</span>
             </Link>
-            <Link href="/gallery">
+            <Link href="/#gallery">
               <span className="">Gallery</span>
             </Link>
-            <Link href="/contact">
+            <Link href="/#contact">
               <span className="">Contact</span>
             </Link>
           </div>

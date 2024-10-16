@@ -11,6 +11,7 @@ import { Hero } from "@/components/Hero";
 import Navbar from "@/components/NavBar";
 import OurInstitution from "@/components/OurInstitution";
 import Promote from "@/components/Promote";
+import { Separator } from "@/components/ui/separator";
 import React from "react";
 
 export default function page() {
@@ -26,12 +27,18 @@ export default function page() {
         </h1>
         <Gallery />
       </div>
+      <Separator/>
       <OurInstitution />
+      <Separator/>
       <AboutUs />
+      <Separator/>
       <EATV />
+      <Separator/>
       <Promote />
+      <Separator/>
       {/* Other Fetures */}
       <DotBg />
+      <Separator/>
       <p className=" text-center">
         Note:- This website is under construction and not yet ready.
       </p>

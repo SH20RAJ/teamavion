@@ -8,7 +8,7 @@ export default function AboutUs({ title, paragraph, image }) {
   const isInView = useInView(ref, { once: true }); // Trigger animation only once
 
   return (
-    <section className="py-12 shadow-sm rounded-lg m-4 animate-shadow shadow-neutral-300">
+    <section className="py-12 shadow-sm rounded-lg m-4 animate-shadow ">
       <div className="container mx-auto px-4">
         <div
           className="flex sm:flex-row-reverse flex-col grid-cols-1 md:grid-cols-2 gap-8 items-center"

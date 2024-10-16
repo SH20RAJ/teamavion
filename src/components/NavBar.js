@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 const Navbar = () => {
@@ -11,8 +12,12 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <Link href="/">
-              <span className="text-2xl font-bold">Team Aveon</span>
-            </Link>
+            <Image
+              src="https://teamaveon.org/assets/Logo-DZienXbr.png" // Replace with the actual path to the logo image
+              alt="Team Aveon Logo"
+              width={150}
+              height={150}
+            />            </Link>
           </div>
           <div className="hidden md:flex space-x-8">
             <Link href="/#about">

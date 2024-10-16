@@ -3,6 +3,7 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { UIButton } from "./UIButton";
 import { motion  } from "framer-motion";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -24,16 +25,20 @@ export function Hero() {
           Explore the skies with Avion, your premier aviation experience.
         </p>
       </div>
-      <div className="">
+      <Link href={"https://teamaveon.org/assets/Team%20Aveon%20Broucher%202024-25-CiM_f-MW.pdf"} className="">
         <UIButton/>
-      </div>
+      </Link>
 
-      <div className="w-full mt-20 text-center flex justify-center items-center">
+      <div className="w-full mt-20 text-center flex flex-col justify-center items-center">
 
       <img
         src="https://teamaveon.org/assets/Car-BUIPROzh.png"
         alt="Avion Car Image"
         />
+        <br />
+        <p className=" underline">
+        -/ A 3D Model to be added here instead /-
+        </p>
         {/* A 3D Model will be added instead */}
         </div>
     </div>

@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 
+const captionStyle = "text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-semibold mb-2"; // New style for captions
+
 export function Achivements() {
   const data = [
     {
@@ -9,21 +11,15 @@ export function Achivements() {
       content: (
         <div>
           <Image
-            src="https://news.ecu.edu/wp-content/pv-uploads/sites/80/2019/05/BajaJump.jpeg" // Replace with the actual image URL
+            src="https://teamaveon.org/Achievement_Img/KK.jpg"
             alt="E-baja 2017"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
           />
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            OVERALL RANK - 14TH
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            9TH - RULE QUIZ
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            19TH - VIRTUALS
-          </p>
+          <p className={captionStyle}>OVERALL RANK - 14TH</p>
+          <p className={captionStyle}>9TH - RULE QUIZ</p>
+          <p className={captionStyle}>19TH - VIRTUALS</p>
         </div>
       ),
     },
@@ -32,24 +28,16 @@ export function Achivements() {
       content: (
         <div>
           <Image
-            src="https://news.ecu.edu/wp-content/pv-uploads/sites/80/2019/05/BajaJump.jpeg" // Replace with the actual image URL
+            src="https://teamaveon.org/Achievement_Img/GG.jpg"
             alt="E-baja 2018"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
           />
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            OVERALL RANK - 13TH
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            5TH - COST REPORT
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            9TH - SALES PRESENTATION
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            12TH - DESIGN REPORT
-          </p>
+          <p className={captionStyle}>OVERALL RANK - 13TH</p>
+          <p className={captionStyle}>5TH - COST REPORT</p>
+          <p className={captionStyle}>9TH - SALES PRESENTATION</p>
+          <p className={captionStyle}>12TH - DESIGN REPORT</p>
         </div>
       ),
     },
@@ -58,30 +46,18 @@ export function Achivements() {
       content: (
         <div>
           <Image
-            src="https://news.ecu.edu/wp-content/pv-uploads/sites/80/2019/05/BajaJump.jpeg" // Replace with the actual image URL
+            src="https://teamaveon.org/Achievement_Img/II.jpg"
             alt="E-baja 2019"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
           />
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            OVERALL RANK - 5TH
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            5TH - DESIGN REPORT
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            4TH - ENDURANCE
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            2ND - VIRTUALS
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            6TH - COST REPORT
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            3RD - SALES AND REPORT
-          </p>
+          <p className={captionStyle}>OVERALL RANK - 5TH</p>
+          <p className={captionStyle}>5TH - DESIGN REPORT</p>
+          <p className={captionStyle}>4TH - ENDURANCE</p>
+          <p className={captionStyle}>2ND - VIRTUALS</p>
+          <p className={captionStyle}>6TH - COST REPORT</p>
+          <p className={captionStyle}>3RD - SALES AND REPORT</p>
         </div>
       ),
     },
@@ -90,33 +66,19 @@ export function Achivements() {
       content: (
         <div>
           <Image
-            src="https://news.ecu.edu/wp-content/pv-uploads/sites/80/2019/05/BajaJump.jpeg" // Replace with the actual image URL
+            src="https://news.ecu.edu/wp-content/pv-uploads/sites/80/2019/05/BajaJump.jpeg"
             alt="E-baja 2021"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
           />
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            OVERALL RANK - 9TH
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            6TH - GRADEBILITY
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            8TH - ACCELERATION
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            9TH - COST REPORT
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            12TH - SALES REPORT
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            14TH - ENDURANCE
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            14TH - SUSPENSION AND TRACTION
-          </p>
+          <p className={captionStyle}>OVERALL RANK - 9TH</p>
+          <p className={captionStyle}>6TH - GRADEBILITY</p>
+          <p className={captionStyle}>8TH - ACCELERATION</p>
+          <p className={captionStyle}>9TH - COST REPORT</p>
+          <p className={captionStyle}>12TH - SALES REPORT</p>
+          <p className={captionStyle}>14TH - ENDURANCE</p>
+          <p className={captionStyle}>14TH - SUSPENSION AND TRACTION</p>
         </div>
       ),
     },
@@ -125,24 +87,16 @@ export function Achivements() {
       content: (
         <div>
           <Image
-            src="https://news.ecu.edu/wp-content/pv-uploads/sites/80/2019/05/BajaJump.jpeg" // Replace with the actual image URL
+            src="https://news.ecu.edu/wp-content/pv-uploads/sites/80/2019/05/BajaJump.jpeg"
             alt="E-baja 2022"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
           />
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            OVERALL RANK - 7TH
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            14TH - ACCELERATION
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            6TH - SLEDGE PULL
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            7TH - ENDURANCE
-          </p>
+          <p className={captionStyle}>OVERALL RANK - 7TH</p>
+          <p className={captionStyle}>14TH - ACCELERATION</p>
+          <p className={captionStyle}>6TH - SLEDGE PULL</p>
+          <p className={captionStyle}>7TH - ENDURANCE</p>
         </div>
       ),
     },
@@ -151,27 +105,17 @@ export function Achivements() {
       content: (
         <div>
           <Image
-            src="https://news.ecu.edu/wp-content/pv-uploads/sites/80/2019/05/BajaJump.jpeg" // Replace with the actual image URL
+            src="https://news.ecu.edu/wp-content/pv-uploads/sites/80/2019/05/BajaJump.jpeg"
             alt="E-baja 2023"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
           />
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            OVERALL RANK - 13TH
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            3RD - INNOVATION
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            8TH - COST REPORT
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            8TH - SALES REPORT
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
-            12TH - PRELIMINARY
-          </p>
+          <p className={captionStyle}>OVERALL RANK - 13TH</p>
+          <p className={captionStyle}>3RD - INNOVATION</p>
+          <p className={captionStyle}>8TH - COST REPORT</p>
+          <p className={captionStyle}>8TH - SALES REPORT</p>
+          <p className={captionStyle}>12TH - PRELIMINARY</p>
         </div>
       ),
     },
